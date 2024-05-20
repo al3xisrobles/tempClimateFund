@@ -12,3 +12,14 @@ It took one try. No significant struggles were encountered. ChatGPT-4o provided 
 
 ### Overall impression of the experience
 The experience was very easy and efficient. ChatGPT-4o proved to be a highly capable model for rapid prototyping and generating reliable code.
+
+# Evanston Climate Fund Web App Prototype
+
+### What the code is doing
+- Editable text box that render Markdown as HTML
+- Save and Cancel buttons for editing text
+
+### Structure and function
+- src/App.jsx: Main application component
+- src/components/EditableTextBox.jsx: Editable text box component. Uses `showdown`, an npm package, to convert from markup to HTML.
+- src/index.css: Tailwind CSS configuration
